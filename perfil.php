@@ -46,15 +46,8 @@
                 $lista_usuario[$i]=$linha1['titulo'];
                 $lista_usuario_id[$i]=$linha1['id'];
                 $i++;
-
-
-
               }
             }
-
-
-
-
             $pesquisa=mysqli_query($conn,"SELECT * FROM usuario WHERE id='".$user_id."'");
             $linhas=mysqli_num_rows($pesquisa);
 
